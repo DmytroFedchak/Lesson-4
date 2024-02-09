@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         h1, h2{
+            color: red;
+        }
+        table{
+            background-color: beige;
+        }
+        table, td{
+            padding: 5px;
+            margin-left: 200px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .Back{
+            background-color: burlywood ;
+        }
+        #Mycolor{
+            background-color: aqua;
+        }
+        *{
+            font-size: 30px;
+        }
+        .scope:hover{
+            background-color: yellow;
+        }
+        .text::before{
+            content: 'Отже';
+        }
+        .text::after{
+            content: 'на момент їх виходу на ринок.';
+        }
+        .text:active{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Порівняльна таблиця телефонів бренду Apple на початок продажу</h1>
+    <table>
+            <tr id="Mycolor">
+                <td>
+                   Бренд
+                </td>
+                <td>
+                    Модель
+                </td>
+                <td>
+                    Колір
+                </td>
+                <td>
+                    Дата виходу
+                </td>
+                <td>
+                    Ціна
+                </td>
+            </tr>
+            <tr>
+                <td class="scope">Iphone</td>
+                <td>11</td>
+                <td>Зелений</td>
+                <td>10.09.2015</td>
+                <td>900$</td>
+            </tr>
+            <tr>
+                <td class="scope">Iphone</td>
+                <td>12</td>
+                <td>Золотий</td>
+                <td>13.09.2016</td>
+                <td>950$</td>
+            </tr>
+            <tr>
+                <td class="scope">Iphone</td>
+                <td>13</td>
+                <td>Білий</td>
+                <td>16.09.2016</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <td class="scope">Iphone</td>
+                <td>14</td>
+                <td>Фіолетовий</td>
+                <td>17.09.2019</td>
+                <td>1300$</td>
+            </tr>
+    </table>
+    <h2>Порівняльна таблиця телефонів бренду Samsung на початок продажу</h2>
+    <table>
+        <tr class="Back">
+            <td>
+                Бренд
+             </td>
+             <td>
+                 Модель
+             </td>
+             <td>
+                 Колір
+             </td>
+             <td>
+                 Дата виходу
+             </td>
+             <td>
+                 Ціна
+             </td>
+        </tr>
+        <tr>
+            <td class="scope">Samsung</td>
+            <td>S6</td>
+            <td>Білий</td>
+            <td>12.07.2015</td>
+            <td>870$</td>
+        </tr>
+        <tr>
+            <td class="scope">Samsung</td>
+            <td>S7</td>
+            <td>Сірий</td>
+            <td>16.08.2016</td>
+            <td>927$</td>
+        </tr>
+        <tr>
+            <td class="scope">Samsung</td>
+            <td>S8</td>
+            <td>Рожевий</td>
+            <td>05.09.2017</td>
+            <td>980$</td>
+        </tr>
+        <tr>
+            <td class="scope">Samsung</td>
+            <td>S10</td>
+            <td>Чорний</td>
+            <td>13.08.2018</td>
+            <td>1150$</td>
+        </tr>
+    </table>
+    <br>
+    <a href="./links/chinacell.html">Порівняльна таблиця телефонів Китайських брендів на початок продажу</a>
+    <br>
+    <hr>
+    <div class="text">
+        у таблицях наведених вище ми можемо бачити та порівняти ціни на телефони різних брендів
+    </div>
+</body>
+</html>
